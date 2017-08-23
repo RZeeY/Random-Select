@@ -6,7 +6,7 @@ var oChooseCont = oChoose.getElementsByTagName("span")[0];
 var oButton = document.getElementsByTagName("button")[0]
 
 var str =
-`医生 老师 飞行员 邮递员 警察 护士 科学家 美术家 回家 歌手 办公室职员 经理 老板 助手 空姐 海军 工程师 作家 航海家 空军 陆军 舞蹈家 书法家 模特 护士 导演 演员 服务员 法官 秘书`
+`程序员 医生 老师 飞行员 邮递员 警察 护士 科学家 美术家 回家 歌手 办公室职员 经理 老板 助手 空姐 海军 工程师 作家 航海家 空军 陆军 舞蹈家 书法家 模特 护士 导演 演员 服务员 法官 秘书`
 var contentArr = [];
 var contentIndex = 0;
 contentArr = str.split(" ");
