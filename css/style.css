@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    background-color: #fdfdfd;
+    position: relative;
+    overflow: hidden;
+}
+
+.mes {
+    padding: 10px;
+    font-size: 20px;
+    color: #bbcedd;
+    cursor: pointer;
+    white-space: nowrap;
+    position: absolute;
+    transition: background-color .5s ease-out;
+
+}
+
+.mes-animate {
+    animation: mesShow 3s linear;
+}
+
+@keyframes mesShow {
+    0% {
+        opacity: 1;
+        transform:scale(1.6,1.6);
+        filter: blur(1.5px);
+    }
+    25% {
+        filter: blur(0);
+    }
+    100% {
+        opacity: 0;
+        transform:scale(0,0);
+    }
+}
+
+.mes:hover {
+    background-color: rgba(220, 228, 235, 0.5);
+}
+
+.choose-cont {
+    /*width: 900px;*/
+    height: 60px;
+    margin: auto;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 32px;
+    font-weight: normal;
+    color: #85a2b6;
+}
+
+.choose-cont span {
+    color: #be5960;
+}
+
+.button-wrap {
+    /*width: 900px;*/
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 130px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.button-wrap button {
+    width: 150px;
+    height: 100%;
+    border: 0;
+    border-radius: 3px 3px;
+    color: #333;
+    background-color: #dce4eb;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
